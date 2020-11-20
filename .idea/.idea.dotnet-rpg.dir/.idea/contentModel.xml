@@ -84,6 +84,7 @@
       <e p="Properties" t="Include">
         <e p="launchSettings.json" t="Include" />
       </e>
+      <e p="readme.md" t="Include" />
       <e p="Services" t="Include">
         <e p="CharacterService" t="Include">
           <e p="CharacterService.cs" t="Include" />
