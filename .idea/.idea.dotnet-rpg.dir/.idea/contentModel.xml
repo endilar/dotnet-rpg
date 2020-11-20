@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\OS\Development\dotnet-rpg" t="IncludeRecursive">
+    <e p="C:\Users\Endi\.Rider2019.2\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Endi\.Rider2019.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Endi\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Endi\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Endi\projects\dotnet-rpg" t="IncludeRecursive">
       <e p=".gitignore" t="Include" />
       <e p="appsettings.Development.json" t="Include" />
       <e p="appsettings.json" t="Include" />
@@ -101,9 +105,5 @@
       <e p="Startup.cs" t="Include" />
       <e p="WeatherForecast.cs" t="Include" />
     </e>
-    <e p="C:\Users\Endi\.Rider2019.2\config\consoles\db" t="IncludeRecursive" />
-    <e p="C:\Users\Endi\.Rider2019.2\config\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\Endi\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Endi\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_.19.00" t="ExcludeRecursive" />
   </component>
 </project>
