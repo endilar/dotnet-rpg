@@ -25,6 +25,7 @@
         <e p="IAuthRepository.cs" t="Include" />
       </e>
       <e p="docker-compose.yml" t="Include" />
+      <e p="Dockerfile" t="Include" />
       <e p="dotnet-rpg.csproj" t="IncludeRecursive" />
       <e p="Dtos" t="Include">
         <e p="Character" t="Include">
