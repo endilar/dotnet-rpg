@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\OS\Development\dotnet-rpg" t="IncludeRecursive">
+      <e p=".gitignore" t="Include" />
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="AutoMapperProfile.cs" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Controllers" t="Include">
+        <e p="AuthController.cs" t="Include" />
+        <e p="CharacterController.cs" t="Include" />
+        <e p="CharacterSkillController.cs" t="Include" />
+        <e p="FightController.cs" t="Include" />
+        <e p="WeaponController.cs" t="Include" />
+        <e p="WeatherForecastController.cs" t="Include" />
+      </e>
+      <e p="Data" t="Include">
+        <e p="AuthRepository.cs" t="Include" />
+        <e p="DataContext.cs" t="Include" />
+        <e p="IAuthRepository.cs" t="Include" />
+      </e>
+      <e p="docker-compose.yml" t="Include" />
+      <e p="dotnet-rpg.csproj" t="IncludeRecursive" />
+      <e p="Dtos" t="Include">
+        <e p="Character" t="Include">
+          <e p="AddCharaterDto.cs" t="Include" />
+          <e p="GetCharacterDto.cs" t="Include" />
+          <e p="UpdateCharacterDto.cs" t="Include" />
+        </e>
+        <e p="CharacterSkill" t="Include">
+          <e p="AddCharacterSkillDto.cs" t="Include" />
+        </e>
+        <e p="Fight" t="Include">
+          <e p="AttackResultDto.cs" t="Include" />
+          <e p="FightRequestDto.cs" t="Include" />
+          <e p="FightResultDto.cs" t="Include" />
+          <e p="HighscoreDto.cs" t="Include" />
+          <e p="SkillAttackDto.cs" t="Include" />
+          <e p="WeaponAttackDto.cs" t="Include" />
+        </e>
+        <e p="Skill" t="Include">
+          <e p="GetSkillDto.cs" t="Include" />
+        </e>
+        <e p="User" t="Include">
+          <e p="UserLoginDto.cs" t="Include" />
+          <e p="UserRegisterDto.cs" t="Include" />
+        </e>
+        <e p="Weapon" t="Include">
+          <e p="AddWeaponDto.cs" t="Include" />
+          <e p="GetWeaponDto.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Migrations" t="Include">
+        <e p="20201029202720_FirstMigration.cs" t="Include" />
+        <e p="20201029202720_FirstMigration.Designer.cs" t="Include" />
+        <e p="20201109233900_Role.cs" t="Include" />
+        <e p="20201109233900_Role.Designer.cs" t="Include" />
+        <e p="DataContextModelSnapshot.cs" t="Include" />
+      </e>
+      <e p="Models" t="Include">
+        <e p="Character.cs" t="Include" />
+        <e p="CharacterSkill.cs" t="Include" />
+        <e p="RpgClass.cs" t="Include" />
+        <e p="ServiceResponse.cs" t="Include" />
+        <e p="Skill.cs" t="Include" />
+        <e p="User.cs" t="Include" />
+        <e p="Weapon.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.1" t="Include">
+            <e p="dotnet-rpg.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="packages-microsoft-prod.deb" t="Include" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Services" t="Include">
+        <e p="CharacterService" t="Include">
+          <e p="CharacterService.cs" t="Include" />
+          <e p="ICaracterService.cs" t="Include" />
+        </e>
+        <e p="CharacterSkillService" t="Include">
+          <e p="CharacterSkillService.cs" t="Include" />
+          <e p="ICharacterSkillService.cs" t="Include" />
+        </e>
+        <e p="FightService" t="Include">
+          <e p="FightService.cs" t="Include" />
+          <e p="IFightService.cs" t="Include" />
+        </e>
+        <e p="WeaponService" t="Include">
+          <e p="IWeaponService.cs" t="Include" />
+          <e p="WeaponService.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="WeatherForecast.cs" t="Include" />
+    </e>
+    <e p="C:\Users\Endi\.Rider2019.2\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Endi\.Rider2019.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Endi\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Endi\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+  </component>
+</project>
