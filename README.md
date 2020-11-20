@@ -1,4 +1,4 @@
-﻿* dotnet-rpg
+# dotnet-rpg
 
-** Description
+## Description
 This repository contains my training c# project.
