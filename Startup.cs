@@ -30,7 +30,7 @@ namespace dotnet_rpg
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<DataContext>(x =>
-                x.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
+                x.UseMySql(ServerVersion.AutoDetect(Configuration.GetConnectionString("DefaultConnection"))));
             services.AddControllers();
             services.AddAutoMapper(typeof(Startup));
             services.AddScoped<ICharacterService, CharacterService>();
