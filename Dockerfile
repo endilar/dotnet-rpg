@@ -8,4 +8,4 @@ ADD . .
 RUN dotnet publish -c Release -o /out
 
 WORKDIR /out 
-ENTRYPOINT ["dotnet", "dotnet-rpg.dll", "--urls", "\"https://0.0.0.0:5001\""]
+ENTRYPOINT ["dotnet", "dotnet-rpg.dll", "--urls", "https://0.0.0.0:5001"]
