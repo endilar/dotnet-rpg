@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace dotnet_rpg.Models
 {
-    public class Character
+    public class  Character
     {
         public int Id { get; set; }
 
